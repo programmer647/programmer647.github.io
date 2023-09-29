@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>Average</title>
+</head>
+
+<body>
+
+<h1>Average calculator</h1>
+
+    <label>Numbers of numbers to be averaged:</label>
+    <input type="number" id="num">
+    
+    <button onclick="average()">Generate average</button>
+
+<script>
+
+function average(){
+    const a=document.getElementById('num');
+    let tot=parseInt(0);
+
+    for(let i=0; i<(a.value);i++){
+        let temp=prompt("Enter a number");
+        tot+=parseInt(temp);
+        alert(tot);
+
+    }
+    avg=tot/parseInt(a.value);
+    alert(avg);
+
+
+}
+
+
+
+// use a for loop to make the user enter the required number of numbers
+//use a prompt
+
+</script>
+
+
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Simple Adder</title>
+    
+</head>
+
+
+<body>
+    <h1>Simple Adder</h1>
+    <label>Enter a number:</label>
+    <input type="number" id="number1">
+
+    <label>Enter another number:</label>
+    <input type="number" id="number2">
+
+    <button onclick="answer()">Generate answer</button>
+
+    <div id="output"></div>
+
+    <script>
+        function answer(){
+            const n1 = document.getElementById("number1");
+            const n2 = document.getElementById('number2');
+            let answer=Number(n1.value)+Number(n2.value);
+
+            output.innerHTML=answer;
+
+
+        }
+    </script>
+
+    
+
+</body>
+</html>
