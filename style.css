@@ -7,8 +7,17 @@
     color:#b03937;
 }
 
+.white-centered{
+    color:#fff;
+    text-align:center;
+}
+
 .white{
     color:white;
+}
+
+.black{
+    color: #000;
 }
 
 .padtop{
@@ -19,3 +28,4 @@
 .middle{
     text-align: center;
 }
+
