@@ -1,7 +1,21 @@
+.red-centered{
+    color:#b03937;
+    text-align:center;
+}
+
 .red{
     color:#b03937;
 }
 
 .white{
     color:white;
+}
+
+.padtop{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.middle{
+    text-align: center;
 }
